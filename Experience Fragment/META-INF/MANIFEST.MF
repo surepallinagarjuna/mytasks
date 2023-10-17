@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:experience:1.0
+Content-Package-Roots: /content/experience-fragments/mani/experience-fra
+ gment3
+Content-Package-Type: content
+
