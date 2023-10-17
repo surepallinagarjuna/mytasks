@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-10-08T22:43:04.393+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ramesh/settings/wcm/templates/ramesh1"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <textimage
+                jcr:created="{Date}2023-10-08T22:38:47.836+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-08T22:42:09.905+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/textimage"
+                alignment="left"
+                text="&lt;p>&lt;b>Nandamuri Taraka Rama Rao Jr.&lt;/b>&amp;nbsp;(born 20 May 1983), also known as&amp;nbsp;&lt;b>Jr. N.T.R.&lt;/b>&amp;nbsp;or&amp;nbsp;&lt;b>Tarak&lt;/b>, is an Indian actor who primarily works in&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Telugu_cinema&quot; title=&quot;Telugu cinema&quot;>Telugu cinema&lt;/a>. One of the highest paid Telugu film actors,&lt;sup>&lt;a href=&quot;https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.#cite_note-1&quot;>[1]&lt;/a>&lt;a href=&quot;https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.#cite_note-2&quot;>[2]&lt;/a>&lt;/sup>&amp;nbsp;Rama Rao has won several accolades, including two&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Filmfare_Awards_South&quot; title=&quot;Filmfare Awards South&quot;>Filmfare Awards&lt;/a>, two state&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Nandi_Awards&quot; title=&quot;Nandi Awards&quot;>Nandi Awards&lt;/a>, and four&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/CineMAA_Awards&quot; title=&quot;CineMAA Awards&quot;>CineMAA Awards&lt;/a>. Since 2012, he has been featured in&amp;nbsp;&lt;i>&lt;a href=&quot;https://en.wikipedia.org/wiki/Forbes_India&quot; title=&quot;Forbes India&quot;>Forbes India&lt;/a>&lt;/i>'s&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Forbes_Celebrity_100&quot; title=&quot;Forbes Celebrity 100&quot;>Celebrity 100&lt;/a>&amp;nbsp;list&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2023-10-08T22:40:04.377+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="JAI NTR"
+                    sling:resourceType="wcm/foundation/components/image"
+                    fileName="WhatsApp Image 2023-08-18 at 1.00.31 PM (1).jpeg"
+                    height="200"
+                    width="200">
+                    <file/>
+                </image>
+            </textimage>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
