@@ -12,7 +12,7 @@ defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class Student implements Studentex
 {
 
-     
+     //com.xml
     @ValueMapValue
     private String fname;
 
